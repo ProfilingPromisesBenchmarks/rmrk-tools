@@ -5,6 +5,7 @@ module.exports = {
   transformIgnorePatterns: [
     "/node_modules/(?!(@polkadot|@babel/runtime/helpers/esm/))",
   ],
+  setupFiles: ['/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js'],
   collectCoverage: true,
   collectCoverageFrom: [
     "src/tools/utils.ts",
